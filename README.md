@@ -96,27 +96,34 @@ These dashboards leverage best practice in dashboard design, where there are hig
 
 Screenshots:
 ![High Level Metrics Prior Day Delta](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/highlevel_metric_vs_priorday.png)
-
+<br/>
+<br/>
 ![Report Example](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/highlevelreportmetric.jpg)
-
+<br/>
+<br/>
 ![Creating Custom Fields Prior Day](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/customfields.png)
+<br/>
 
 
 The vaccine capacity dashboard is leveraging a new looker feature called Cross - Filtering.
 Cross-filtering makes it easier and more intuitive for viewers of dashboards to interact with a dashboard’s data and understand how one metric affects another. With cross-filtering, users can click a data point in one dashboard tile to have all dashboard tiles automatically filter on that value.
 
 [Learn More on Cross Filtering](https://docs.looker.com/dashboards/cross-filtering)
-
+<br/>
+<br/>
 ![Cross Filtering](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/crossfiltering3.png)
+<br/>
 <br/>
 ![Cross Filtering Before](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/crossfiltering1.png)
 <br/>
+<br/>
 ![Cross Filtering After](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/crossfiltering2.png)
-
+<br/>
 <br/>
 And here are two more great examples of Looker Dashboards and Designs:
 <br/>
 [Covid Regional Level](https://covid19response.cloud.looker.com/embed/dashboards-next/38?State=&Region+%28US-Only%29=West)
+<br/>
 <br/>
 [Covid State Level](https://covid19response.cloud.looker.com/embed/dashboards-next/39?State=California&County=)
 
