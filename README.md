@@ -19,18 +19,29 @@ Invigorate your workflows with fresh, reliable data. Looker gives teams unified 
 Custom applications
 Create custom apps that deliver data experiences as unique as your business. Looker's ability to embedded analytics, delivers data where they need it and helps them to get the job done.
 
-![Looker 4 Main Pillars](
+![Looker 4 Main Pillars](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/lookerfourpillars.png)
 
 
 
-This is set of Demo Dashboards and LookML that leverage BigQuery Public Covid19 Datasets.
+This is set of Demo Dashboards and a LookML model that leverage BigQuery Public Covid19 Datasets.
 These can be used for demo purposes, and they can be used as examples of "how to code" to build highly effective Looker dashboards.
 
-The main BigQuery Dataset we use is "bigquery-public-data:covid19_public_forecasts" which is where Google publishes its 14 and 28 Day forecast of covid19 cases.
+The main BigQuery Dataset we use is "bigquery-public-data:covid19_public_forecasts" which is where Google publishes its 14 and 28 Day forecast of covid19 cases along with other information.
 
-We designed three Looker dashboards, Partner COVID-19 Public Forecasts - State, Partner COVID 19 Public Forecast by County, Partner COVID 19 Public Forecast Vaccine Capacity
+We designed three Looker dashboards based on public forecast data: 
+![Partner COVID-19 Public Forecasts - State](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_forecast_state.png)
 
+[Partner COVID-19 Public Forecasts - State (PDF)](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Partner%20COVID-19%20Public%20Forecasts%20-%20State%202020-11-25T0807.pdf)
+<br/>
+ 
+![Partner COVID 19 Public Forecast by County](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_forecast_county.png)
+<br/>
+[Partner COVID 19 Public Forecast by County (PDF)](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Partner%20COVID%2019%20Public%20Forecast%20by%20County%202020-11-25T0809.pdf)
 
+![Partner COVID 19 Public Forecast Vaccine Capacity](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_vaccine_cap.png)
+<br/>
+
+[Partner COVID 19 Public Forecast Vaccine Capacity (PDF)](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Partner%20COVID%2019%20Public%20Forecast%20Vaccine%20Capacity%202020-11-25T1011.pdf)
 
 The Partner COVID-19 Public Forecasts - State is typically were we start. We provided several high level metrics that compute the prior day metrics.
 Confirmed Cases, and Deaths are using custom fields to calculate the prior day total, and display the delta beneath the current day value.
