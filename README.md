@@ -65,17 +65,21 @@ link: {
 **Please Note - You would need to update the dashboard number that you want to link to. In this example /dashboards-next/864?State+Name={{ value }} would need to updated to have /dashboards-next/yourdashboardnumber?State+Name={{ value }}**
 
 
-[Screenshot: State Drill In and Out](https://github.com/peterfishergcp/GlobalPublicSector/blob/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/images/Drillintoandout.png)
+![Screenshot: State Drill In and Out](https://github.com/peterfishergcp/GlobalPublicSector/blob/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/images/Drillintoandout.png)
+
 [More Information and Examples - Linking in Looker](https://docs.looker.com/reference/field-params/link)
+<br/>
 [More Information and Examples - Custom-Drilling-Using-HTML-and-Link](https://help.looker.com/hc/en-us/articles/360001288228-Custom-Drilling-Using-HTML-and-Link)
 
 
 These dashboards leverage best practice in dashboard design, where there are high level metrics at the top, with the delta or % change from yesterday included underneath. This is a great technique and demo concept, and to create these high level metrics we used  custom fields to calculate prior day balances, and then calculate the delta. So those are excellent examples to copy and are easy to see how they created.
 
 Screenshots:
-[High Level Metrics Prior Day Delta](https://github.com/peterfishergcp/GlobalPublicSector/blob/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/images/highlevel_metric_vs_priorday.png)
-[Report Example](https://github.com/peterfishergcp/GlobalPublicSector/blob/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/images/highlevelreportmetric.jpg)
-[Creating Custom Fields Prior Day](http://github.com/peterfishergcp/GlobalPublicSector/blob/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/images/customfields.png)
+![High Level Metrics Prior Day Delta](https://github.com/peterfishergcp/GlobalPublicSector/blob/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/images/highlevel_metric_vs_priorday.png)
+
+![Report Example](https://github.com/peterfishergcp/GlobalPublicSector/blob/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/images/highlevelreportmetric.jpg)
+
+![Creating Custom Fields Prior Day](http://github.com/peterfishergcp/GlobalPublicSector/blob/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/images/customfields.png)
 
 
 ## Machine Learning and Forecasting with BigQuery and Looker
