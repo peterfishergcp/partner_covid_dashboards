@@ -55,6 +55,7 @@ The drill down to County information without leaving the dashboard is a great fe
 
 And the two drill out use cases are examples of passing state as a parameter to another dashboard, and to an external website, which are common use cases.
 
+![Screenshot: State Drill In and Out](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Drillintoandout.png)
 
 You can find how we did this in the County_14d view, where you can see the lookML model that we used for the specific dimension: state_name
 
@@ -78,7 +79,7 @@ link: {
 **Please Note - You would need to update the dashboard number that you want to link to. In this example /dashboards-next/864?State+Name={{ value }} would need to updated to have /dashboards-next/yourdashboardnumber?State+Name={{ value }}**
 
 
-![Screenshot: State Drill In and Out](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Drillintoandout.png)
+
 
 [More Information and Examples - Linking in Looker](https://docs.looker.com/reference/field-params/link)
 <br/>
