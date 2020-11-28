@@ -51,11 +51,15 @@ We also included two graphs that display the Google 28 day COVID Forecast for Ne
 
 Next, we right-mouse click on a particular state on US Map Graph and you see in the popup window that you can drill down into County, (which gives you a preview of the County Cases without having to leave the dashboard), and it has drill out options as well.  Under Links, you can select the State Specific Dashboard which will take you to another dashboard that has State and County level information. You can also drill out to external systems or to external sources like Google News.
 
+![Screenshot: State Drill Out](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Drillintoandout.png)
+
 The drill down to County information without leaving the dashboard is a great feature for users, where you can not only preview the data, but you can also explore if you need to drill into all the data behind that chart.
+
+![Screenshot: State Drill Down County](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_drill_in_county.png)
 
 And the two drill out use cases are examples of passing state as a parameter to another dashboard, and to an external website, which are common use cases.
 
-![Screenshot: State Drill In and Out](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Drillintoandout.png)
+<br/>
 
 You can find how we did this in the County_14d view, where you can see the lookML model that we used for the specific dimension: state_name
 
