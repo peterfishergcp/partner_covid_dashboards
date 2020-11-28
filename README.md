@@ -102,6 +102,24 @@ Screenshots:
 ![Creating Custom Fields Prior Day](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/customfields.png)
 
 
+The vaccine capacity dashboard is leveraging a new looker feature called Cross - Filtering.
+Cross-filtering makes it easier and more intuitive for viewers of dashboards to interact with a dashboard’s data and understand how one metric affects another. With cross-filtering, users can click a data point in one dashboard tile to have all dashboard tiles automatically filter on that value.
+
+![Cross Filtering](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/crossfiltering3.png)
+<br/>
+![Cross Filtering Before](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/crossfiltering1.png)
+<br/>
+![Cross Filtering After](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/crossfiltering2.png)
+
+<br/>
+And here are two more great examples of Looker Dashboards and Designs:
+<br/>
+[Covid Regional Level](https://covid19response.cloud.looker.com/embed/dashboards-next/38?State=&Region+%28US-Only%29=West)
+<br/>
+[Covid State Level](https://covid19response.cloud.looker.com/embed/dashboards-next/39?State=California&County=)
+
+
+
 ## Machine Learning and Forecasting with BigQuery and Looker
 
 In order to better manage and anitipatiate vaccine demand and new cases, we are using ML models to help predict the future. In this example, we are leveraging the Google Forecast ML model which updates the COVID19 Public DataSets, like "bigquery-public-data.covid19_public_forecasts.county_14d". However, the ML model is not exposed and it not public.
