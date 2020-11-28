@@ -121,8 +121,15 @@ Cross-filtering makes it easier and more intuitive for viewers of dashboards to 
 <br/>
 <br/>
 And here are two more great examples of Looker Dashboards and Designs:
+
+<br/>
+![Covid Regional Level](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_public_region.png)
+<br/>
 <br/>
 [Covid Regional Level](https://covid19response.cloud.looker.com/embed/dashboards-next/38?State=&Region+%28US-Only%29=West)
+<br/>
+<br/>
+![Covid State Level](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_public_state.png)
 <br/>
 <br/>
 [Covid State Level](https://covid19response.cloud.looker.com/embed/dashboards-next/39?State=California&County=)
