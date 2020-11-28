@@ -3,6 +3,25 @@
 Contributors to this Project:
 **Peter Fisher/Joseph Lei/Karteek Kotamsetty/Ranadheer Mettu/Mike Snodgrass**
 
+Key Messaging to think about when presenting Looker - Drive better outcomes through smarter data-driven experiences. Which means putting data where you work. So drilling down into detail without leaving a dashboard and drilling out to other systems are great examples how Looker provides a better data-driven experience for the users.
+
+The four Looker main pillars:
+
+Modern BI & analytics
+Serve up real-time dashboards for more in-depth, consistent analysis. Access to trustworthy data enables teams to collect fresh results for more precise reporting.
+
+Integrated insights
+Enhance the tools you’re already using by infusing new, relevant data. Unify and empower your teams to make more effective, data-informed decisions.
+
+Data-driven workflows
+Invigorate your workflows with fresh, reliable data. Looker gives teams unified access to the answers they need to drive successful outcomes.
+
+Custom applications
+Create custom apps that deliver data experiences as unique as your business. Looker's ability to embedded analytics, delivers data where they need it and helps them to get the job done.
+
+![Looker 4 Main Pillars](
+
+
 
 This is set of Demo Dashboards and LookML that leverage BigQuery Public Covid19 Datasets.
 These can be used for demo purposes, and they can be used as examples of "how to code" to build highly effective Looker dashboards.
@@ -24,23 +43,6 @@ Next, we right-mouse click on a particular state on US Map Graph and you see in 
 The drill down to County information without leaving the dashboard is a great feature for users, where you can not only preview the data, but you can also explore if you need to drill into all the data behind that chart.
 
 And the two drill out use cases are examples of passing state as a parameter to another dashboard, and to an external website, which are common use cases.
-
-Key Messaging to think about when presenting Looker - Drive better outcomes through smarter data-driven experiences. Which means putting data where you work. So drilling down into detail without leaving a dashboard and drilling out to other systems are great examples how Looker provides a better data-driven experience for the users.
-
-The four Looker main pillars:
-
-Modern BI & analytics
-Serve up real-time dashboards for more in-depth, consistent analysis. Access to trustworthy data enables teams to collect fresh results for more precise reporting.
-
-Integrated insights
-Enhance the tools you’re already using by infusing new, relevant data. Unify and empower your teams to make more effective, data-informed decisions.
-
-Data-driven workflows
-Invigorate your workflows with fresh, reliable data. Looker gives teams unified access to the answers they need to drive successful outcomes.
-
-Custom applications
-Create custom apps that deliver data experiences as unique as your business. Looker's ability to embedded analytics, delivers data where they need it and helps them to get the job done.
-
 
 
 You can find how we did this in the County_14d view, where you can see the lookML model that we used for the specific dimension: state_name
