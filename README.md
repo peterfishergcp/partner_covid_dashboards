@@ -106,7 +106,7 @@ Screenshots:
 
 The covid dashboards are typically displaying actual cases along with forecast or predictive data, with an upper and lower bound. In order to display these types of graphs, we use two options to hide null values, and to display a certain number of rows. 
 
-![Forecast Graph with Upper and Lower Bounds](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/forecast_graph.png)
+![Forecast Graph with Upper and Lower Bounds](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/forecast_graph1.png)
 
 
 The vaccine capacity dashboard is leveraging a new looker feature called Cross - Filtering.
