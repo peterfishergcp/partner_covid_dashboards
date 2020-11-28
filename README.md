@@ -34,11 +34,11 @@ We designed three Looker dashboards based on public forecast data:
 [Partner COVID-19 Public Forecasts - State (PDF)](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Partner%20COVID-19%20Public%20Forecasts%20-%20State%202020-11-25T0807.pdf)
 <br/>
  
-![Partner COVID 19 Public Forecast by County](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_forecast_county.png)
+![Partner COVID 19 Public Forecast by County](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_forecast_county1.png)
 <br/>
 [Partner COVID 19 Public Forecast by County (PDF)](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Partner%20COVID%2019%20Public%20Forecast%20by%20County%202020-11-25T0809.pdf)
 
-![Partner COVID 19 Public Forecast Vaccine Capacity](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_vaccine_cap.png)
+![Partner COVID 19 Public Forecast Vaccine Capacity](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_vaccine_cap1.png)
 <br/>
 
 [Partner COVID 19 Public Forecast Vaccine Capacity (PDF)](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Partner%20COVID%2019%20Public%20Forecast%20Vaccine%20Capacity%202020-11-25T1011.pdf)
