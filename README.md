@@ -63,6 +63,8 @@ And the two drill out use cases are examples of passing state as a parameter to 
 
 You can find how we did this in the County_14d view, where you can see the lookML model that we used for the specific dimension: state_name
 
+![State Dimension](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/state_dimension.png)
+
 dimension: state_name {
 type: string
 map_layer_name: us_states
