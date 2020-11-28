@@ -182,5 +182,6 @@ To get a daily forecast, we can create a script out of the two queries. This is 
 
 
 I don’t speak for my employer. This is not official Google work. 
-Thanks to Felipe Hoffa for many insightful comments.
-Any errors that remain are mine, of course.
+Thanks to Felipe Hoffa and  Lak Lakshmanan for many insightful comments.
+Any errors you find, are mine. 
+
