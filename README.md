@@ -116,6 +116,10 @@ These forecasts use AI to provide a projection of COVID-19 cases, deaths, and ot
 [Analyzing COVID-19 with BigQuery](https://medium.com/google-cloud/analyzing-covid-19-with-bigquery-13701a3a785)
 WRITTEN BY Lak Lakshmanan Data Analytics & AI @ Google Cloud
 
+[Why amateur COVID-19 predictions are worthless — featuring ARIMA](https://medium.com/@hoffa/covid-19-arima-predictions-are-worthless-f34e52139769)
+WRITTEN BY Felipe Hoffa - Developer Advocate @Google
+
+[SQL for fhoffa.x.int](https://github.com/fhoffa/code_snippets/blob/master/arima_covid/usa.6.days.sql)
 
 
 **Please Note:This is an extrapolation of historical trends, and does not take into account all the other factors that affect the number of confirmed COVID cases. It’s not meant to predict actual outcomes. Instead, it’s meant to extrapolate what will happen if things stay the same, which is not likely. So this is a good use of ML, but also highlights some of it's limitations. As we will see when look at the confidence bounds and error rate when comparing forecast cases against actual cases.**
@@ -165,3 +169,11 @@ ORDER BY date
 To get a daily forecast, we can create a script out of the two queries. This is as simple as writing the two SQL statements one after the other, making sure to end the first one with a semicolon. Then, click on “Schedule query” to run this every day:
 
 ![BigQuery Schedule](https://miro.medium.com/max/1050/0*NgNnCDVxqctsYhs_)
+
+
+
+
+
+I don’t speak for my employer. This is not official Google work. 
+Thanks to Felipe Hoffa for many insightful comments.
+Any errors that remain are mine, of course.
