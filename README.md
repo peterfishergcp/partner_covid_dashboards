@@ -104,6 +104,10 @@ Screenshots:
 ![Creating Custom Fields Prior Day](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/customfields.png)
 <br/>
 
+The covid dashboards are typically displaying actual cases along with forecast or predictive data, with an upper and lower bound. In order to display these types of graphs, we use two options to hide null values, and to display a certain number of rows. 
+
+![Forecast Graph with Upper and Lower Bounds](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/forecast_graph.png)
+
 
 The vaccine capacity dashboard is leveraging a new looker feature called Cross - Filtering.
 Cross-filtering makes it easier and more intuitive for viewers of dashboards to interact with a dashboard’s data and understand how one metric affects another. With cross-filtering, users can click a data point in one dashboard tile to have all dashboard tiles automatically filter on that value.
