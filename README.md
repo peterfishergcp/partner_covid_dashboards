@@ -212,6 +212,19 @@ USING(date)
 ORDER BY date
 
 
+Here is a screenshot of how deployed the forecast model and ran the accuracy query in my BigQuery Project:
+
+![BigQueryForecastModel](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/CreateForecastModel.png)
+
+
+<br/>
+<br/>
+<br/>
+
+Here is how I viewed the accuracy of the forecast model. 
+
+![BigQueryQueryModel](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/query_compare_actuals_forecast.png)
+
 
 **Please Note - You would need replace "Insertyourdatasetnamehere".numreports_forecast with your BigQuery DataSet at both places: CREATE OR REPLACE MODEL Insertyourdatasetnamehere.numreports_forecast, and FROM ML.FORECAST(MODEL Insertyourdatasetnamehere.numreports_forecast**
 
@@ -225,7 +238,9 @@ To get a daily forecast, we can create a script out of the two queries. This is 
 
 
 
-I don’t speak for my employer. This is not official Google work. 
+
+
+I don’t speak for my employer. This is not official Google work, and this is not an official product of Google.
 Thanks to Felipe Hoffa and  Lak Lakshmanan for many insightful comments.
 Any errors you find, are mine. 
 
