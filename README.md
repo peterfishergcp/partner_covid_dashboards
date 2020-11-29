@@ -184,7 +184,6 @@ In BigQuery - I used this model that has two steps.
 <br/>
 **Step 1 is to create the model**
 <br/>
-<br/>
 **Step 2 is to store the comparison of what was forecasted with actual cases, to better understand how accurate the model is.**
 
 CREATE OR REPLACE MODEL Insertyourdatasetnamehere.numreports_forecast
