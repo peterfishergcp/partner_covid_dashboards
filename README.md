@@ -161,6 +161,10 @@ These forecasts use AI to provide a projection of COVID-19 cases, deaths, and ot
 4. Customized forecasts. Since the launch in August, we have worked with many organizations to better understand how these forecasts can help. In the process we have learned that many organizations have specific needs that go beyond just consuming our public forecast, such as wanting to use their own datasets as inputs. To that end, we have turned the initial forecasting model into a system that is customizable to new problems and datasets. We are working with public sector and healthcare leaders to help them create custom forecasts for their states and hospitals.
 5. What-if analysis for informing policy decisions. We have also seen significant interest in using the forecasting model to ask “what-if” questions to help make better-informed policy decisions.
 
+<br/>
+<br/>
+
+![WhatIf](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/whatif_ca_vaccine_effective.png)
 
 *In order to help Partners learn how to leverage BigQuery ML Models and consume them in Looker, we can leverage a public COVID Forecast ML Model*
 
@@ -232,7 +236,7 @@ Here is how I viewed the accuracy of the forecast model.
 **How to publish a daily forecast:**
 To get a daily forecast, we can create a script out of the two queries. This is as simple as writing the two SQL statements one after the other, making sure to end the first one with a semicolon. Then, click on “Schedule query” to run this every day:
 
-![BigQuery Schedule](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/scheduleforecast1.png)
+![BigQuery Schedule](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/schedule_model.png)
 
 
 <br/>
