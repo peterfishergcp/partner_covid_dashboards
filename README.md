@@ -180,7 +180,11 @@ WRITTEN BY Felipe Hoffa - Developer Advocate @Google
 **Please Note:This is an extrapolation of historical trends, and does not take into account all the other factors that affect the number of confirmed COVID cases. It’s not meant to predict actual outcomes. Instead, it’s meant to extrapolate what will happen if things stay the same, which is not likely. So this is a good use of ML, but also highlights some of it's limitations. As we will see when look at the confidence bounds and error rate when comparing forecast cases against actual cases.**
 
 In BigQuery - I used this model that has two steps.
+<br/>
+<br/>
 **Step 1 is to create the model**
+<br/>
+<br/>
 **Step 2 is to store the comparison of what was forecasted with actual cases, to better understand how accurate the model is.**
 
 CREATE OR REPLACE MODEL Insertyourdatasetnamehere.numreports_forecast
