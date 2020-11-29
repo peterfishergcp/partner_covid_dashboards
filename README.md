@@ -232,11 +232,14 @@ Here is how I viewed the accuracy of the forecast model.
 **How to publish a daily forecast:**
 To get a daily forecast, we can create a script out of the two queries. This is as simple as writing the two SQL statements one after the other, making sure to end the first one with a semicolon. Then, click on “Schedule query” to run this every day:
 
-![BigQuery Schedule](https://miro.medium.com/max/1050/0*NgNnCDVxqctsYhs_)
+![BigQuery Schedule](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/scheduleforecast.png)
 
 
+<br/>
+<br/>
+<br/>
 
-
+![BigQuery My_COVID_Schedule](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/scheduledmycovid.png)
 
 
 
