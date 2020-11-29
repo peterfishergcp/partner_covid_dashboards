@@ -82,7 +82,7 @@ link: {
 }
 }
 
-**Please Note - You would need to update the dashboard number that you want to link to. In this example /dashboards-next/864?State+Name={{ value }} would need to updated to have /dashboards-next/yourdashboardnumber?State+Name={{ value }}**
+**Please Note - You would need to update the dashboard number that you want to link to. In this example /dashboards-next/864?State+Name={{ value }} would need to be updated to the dashboard you want to link to /dashboards-next/yourdashboardnumber?State+Name={{ value }}**
 
 
 
