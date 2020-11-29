@@ -1,7 +1,7 @@
 # Partner Covid19 Dashboards - Examples
 
 Contributors to this Project:
-**Peter Fisher/Joseph Lei/Karteek Kotamsetty/Ranadheer Mettu/Mike Snodgrass**
+**Peter Fisher/Joseph Lei/Karteek Kotamsetty/Ranadheer Mettu/Mike Snodgrass/Lukman Ramsey**
 
 Looker - Drives better outcomes through smarter data-driven experiences. Which means putting data where you work. So drilling down into detail without leaving a dashboard and drilling out to other systems are great examples how Looker provides a better data-driven experience for the users.
 
