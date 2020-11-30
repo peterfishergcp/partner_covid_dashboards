@@ -251,7 +251,7 @@ USING(date)
 ORDER BY date
 **
 
-![BigQuerySaveView](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Save_View.png)
+![BigQuerySaveView](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Save_View1.png)
 
 <br/>
 <br/>
