@@ -1,7 +1,7 @@
 # Partner Covid19 Dashboards - Examples
 
 Contributors to this Project:
-**Peter Fisher/Joseph Lei/Karteek Kotamsetty/Ranadheer Mettu/Mike Snodgrass/Lukman Ramsey/Christopher Haas/Chris Hein**
+**Peter Fisher/Joseph Lei/Karteek Kotamsetty/Ranadheer Mettu/Mike Snodgrass/Lukman Ramsey/Christopher Haas/Chris Hein/Aaron Pestel**
 
 Looker - Drives better outcomes through smarter data-driven experiences. Which means putting data where you work. So drilling down into detail without leaving a dashboard and drilling out to other systems are great examples how Looker provides a better data-driven experience for the users.
 
@@ -229,6 +229,33 @@ Here is a screenshot of how deployed the forecast model and ran the accuracy que
 <br/>
 
 Here is how I viewed the accuracy of the forecast model. 
+
+I created a view from the following query:
+
+**SELECT date, forecast
+  , TO_JSON_STRING([fhoffa.x.int(confidence_interval_lower_bound), fhoffa.x.int(confidence_interval_upper_bound)]) bounds
+  , confirmed actual_confirmed, ROUND((confirmed-forecast)/confirmed * 100,1) error
+FROM (
+  SELECT DATE(forecast_timestamp) date, fhoffa.x.int(EXP(forecast_value)) AS forecast
+      , EXP(confidence_interval_lower_bound) confidence_interval_lower_bound
+      , EXP(confidence_interval_upper_bound) confidence_interval_upper_bound
+  FROM ML.FORECAST(MODEL vaccine_distro.numreports_forecast,
+  STRUCT(14 AS horizon, 0.9 AS confidence_level))
+) JOIN (
+  SELECT date, SUM(confirmed) confirmed
+  FROM `bigquery-public-data.covid19_jhu_csse.summary`
+  WHERE country_region = 'US'
+  GROUP BY 1
+)
+USING(date)
+ORDER BY date
+**
+
+![BigQuerySaveView](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Save_View.png)
+
+<br/>
+<br/>
+<br/>
 
 ![BigQueryQueryModel](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/query_compare_actuals_forecast.png)
 
