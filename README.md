@@ -109,7 +109,7 @@ link: {
 
 <br/>
 
-The vaccine capacity dashboard is leveraging a new looker feature called Cross - Filtering.
+The Covid State/County dashboard is leveraging a new looker feature called Cross - Filtering.
 Cross-filtering makes it easier and more intuitive for viewers of dashboards to interact with a dashboard’s data and understand how one metric affects another. With cross-filtering, users can click a data point in one dashboard tile to have all dashboard tiles automatically filter on that value.
 
 [Learn More on Cross Filtering](https://docs.looker.com/dashboards/cross-filtering)
