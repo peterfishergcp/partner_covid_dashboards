@@ -43,10 +43,26 @@ We designed three Looker dashboards based on public forecast data:
 
 [Partner COVID 19 Public Forecast Vaccine Capacity (PDF)](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/Partner%20COVID%2019%20Public%20Forecast%20Vaccine%20Capacity%202020-11-25T1011.pdf)
 
-The Partner COVID-19 Public Forecasts - State is typically were we start. We provided several high level metrics that compute the prior day metrics.
+The Partner COVID-19 Public Forecasts - State is typically where we start. We provided several high level metrics that compute the prior day metrics.
 Confirmed Cases, and Deaths are using custom fields to calculate the prior day total, and display the delta beneath the current day value.
 
 We also included two graphs that display the Google 28 day COVID Forecast for New Cases, and Deaths. These two charts, displaying the actual cases, and then 3 forecast lines, which represent the ML predicted forecast in RED, and the Upper (in Green) and Lower (in Yellow) Bounds of that forecast.
+
+These dashboards leverage best practice in dashboard design, where there are high level metrics at the top, with the delta or % change from yesterday included underneath. This is a great technique and demo concept, and to create these high level metrics we used  custom fields to calculate prior day balances, and then calculate the delta. So those are excellent examples to copy and are easy to see how they created.
+
+Screenshots:
+![High Level Metrics Prior Day Delta](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/highlevel_metric_vs_priorday.png)
+<br/>
+<br/>
+![Report Example](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/highlevelreportmetric.jpg)
+<br/>
+<br/>
+![Creating Custom Fields Prior Day](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/customfields.png)
+<br/>
+
+The covid dashboards are typically displaying actual cases along with forecast or predictive data, with an upper and lower bound. In order to display these types of graphs, we use two options to hide null values, and to display a certain number of rows. 
+
+![Forecast Graph with Upper and Lower Bounds](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/forecast_graph1.png)
 
 
 Next, we right-mouse click on a particular state on US Map Graph and you see in the popup window that you can drill down into County, (which gives you a preview of the County Cases without having to leave the dashboard), and it has drill out options as well.  Under Links, you can select the State Specific Dashboard which will take you to another dashboard that has State and County level information. You can also drill out to external systems or to external sources like Google News.
@@ -91,23 +107,7 @@ link: {
 <br/>
 [More Information and Examples - Custom-Drilling-Using-HTML-and-Link](https://help.looker.com/hc/en-us/articles/360001288228-Custom-Drilling-Using-HTML-and-Link)
 
-
-These dashboards leverage best practice in dashboard design, where there are high level metrics at the top, with the delta or % change from yesterday included underneath. This is a great technique and demo concept, and to create these high level metrics we used  custom fields to calculate prior day balances, and then calculate the delta. So those are excellent examples to copy and are easy to see how they created.
-
-Screenshots:
-![High Level Metrics Prior Day Delta](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/highlevel_metric_vs_priorday.png)
 <br/>
-<br/>
-![Report Example](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/highlevelreportmetric.jpg)
-<br/>
-<br/>
-![Creating Custom Fields Prior Day](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/customfields.png)
-<br/>
-
-The covid dashboards are typically displaying actual cases along with forecast or predictive data, with an upper and lower bound. In order to display these types of graphs, we use two options to hide null values, and to display a certain number of rows. 
-
-![Forecast Graph with Upper and Lower Bounds](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/forecast_graph1.png)
-
 
 The vaccine capacity dashboard is leveraging a new looker feature called Cross - Filtering.
 Cross-filtering makes it easier and more intuitive for viewers of dashboards to interact with a dashboard’s data and understand how one metric affects another. With cross-filtering, users can click a data point in one dashboard tile to have all dashboard tiles automatically filter on that value.
