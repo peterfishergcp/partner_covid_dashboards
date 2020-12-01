@@ -2,6 +2,7 @@ connection: "covid_vaccine_distro"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/dashboard/**/*.dashboard"
 
 datagroup: pf_vaccine_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
