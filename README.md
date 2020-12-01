@@ -143,6 +143,31 @@ And here are two more great examples of Looker Dashboards and Designs:
 
 ![Covid State Level](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_public_state.png)
 <br/>
+<br/>
+<br/>
+
+## Installing the LookML
+
+Create a Looker connection covid_vaccine_distro to your BigQuery DataSet
+![Covid vaccine_distro_connection](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/lookerconnection.png)
+
+<br/>
+<br/>
+<br/>
+
+![Covid vaccine_distro](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_vaccine_distro_connection.png)
+
+I included the 3 dashboards that are located in the dashboard folder. (you should see - include: "/dashboard/**/*.dashboard") in the gps_vaccine_distro.model
+
+![BigQueryQueryModel](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/query_compare_actuals_forecast.png)
+
+<br/>
+<br/>
+
+When you clone or import the model into your own looker instance, you should be able to view the dashboard, and then save to your folder or storyboard.
+To view the dashboard, naviagate to the dashboard and click on the diamond, where you'll see that you can view dashboard.
+
+![viewdashboards](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/view_dashboard_2.png)
 
 
 
@@ -256,8 +281,6 @@ ORDER BY date
 <br/>
 <br/>
 <br/>
-
-![BigQueryQueryModel](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/query_compare_actuals_forecast.png)
 
 
 **Please Note - You would need replace "Insertyourdatasetnamehere".numreports_forecast with your BigQuery DataSet at both places: CREATE OR REPLACE MODEL Insertyourdatasetnamehere.numreports_forecast, and FROM ML.FORECAST(MODEL Insertyourdatasetnamehere.numreports_forecast**
