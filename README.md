@@ -155,11 +155,9 @@ Create a Looker connection covid_vaccine_distro to your BigQuery DataSet
 <br/>
 <br/>
 
-![Covid vaccine_distro](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_vaccine_distro_connection.png)
-
 I included the 3 dashboards that are located in the dashboard folder. (you should see - include: "/dashboard/**/*.dashboard") in the gps_vaccine_distro.model
 
-![BigQueryQueryModel](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/query_compare_actuals_forecast.png)
+![Covid vaccine_distro](https://github.com/peterfishergcp/partner_covid_dashboards/blob/main/images/covid_vaccine_distro_connection.png)
 
 <br/>
 <br/>
